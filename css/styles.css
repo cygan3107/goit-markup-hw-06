@@ -700,3 +700,34 @@ li {
 .form-button:hover {
     background: #404bbf;
 }
+
+/* ================================================= MOBILE 👇 ========================================= */
+@media screen and (max-width: 767px) {
+    .features-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 72px;
+    }
+}
+/* ================================================= TABLET 👇 ========================================= */
+@media screen and (min-width: 768px) {
+    .features {
+        padding: 96px 0;
+    }
+    .features-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+    }
+    .features-block {
+        width: calc((100% - 24px) / 2);
+    }
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+/* ================================================= DESKTOP 👇 ========================================= */
+@media screen and (min-width: 1158px) {
+}
