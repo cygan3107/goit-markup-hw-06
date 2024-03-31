@@ -300,7 +300,7 @@ li {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin: 0 auto;
-    text-align: center;
+    margin-bottom: 8px;
 }
 .features-text {
     font-family: "Roboto", sans-serif;
@@ -491,6 +491,7 @@ li {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16px;
 }
 .social-media-group {
     display: flex;
@@ -552,7 +553,7 @@ li {
     gap: 16px;
 }
 .input-dark {
-    width: 264px;
+    width: 288px;
     height: 40px;
     border: 1px solid #fff;
     background-color: transparent;
@@ -799,7 +800,7 @@ li {
     background: #404bbf;
 }
 @media (min-resolution: 192dpi) {
-    .blue-box {
+    .hero {
         background-image: linear-gradient(
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)
@@ -888,7 +889,8 @@ li {
     .features-name {
         font-size: 36px;
         font-weight: 700;
-        text-align: left;
+        justify-content: left;
+        margin-bottom: 8px;
     }
 
     .team-list {
@@ -915,7 +917,6 @@ li {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
-        column-gap: 24px;
         row-gap: 72px;
         align-items: baseline;
         max-width: 530px;
@@ -949,6 +950,7 @@ li {
         text-align: left;
     }
     .input-dark {
+        width: 264px;
         opacity: 0.3;
     }
     .input-dark::placeholder {
@@ -1041,6 +1043,8 @@ li {
     .features-name {
         font-size: 20px;
         font-weight: 500;
+        justify-content: left;
+        margin-bottom: 8px;
     }
     .portfolio-list {
         column-gap: 24px;
