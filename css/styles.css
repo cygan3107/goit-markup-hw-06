@@ -917,7 +917,7 @@ li {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
-        row-gap: 72px;
+        gap: 72px 24px;
         align-items: baseline;
         max-width: 530px;
     }
